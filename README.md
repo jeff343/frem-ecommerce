@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-This was the most DOM manipulation I have done with vamilla javascript, and I enjoyed trying new things to make the funtions work.
+This was the most DOM manipulation I have done with vanilla javascript, and I enjoyed trying new things to make the funtions work.
 
 ### Continued development
 
