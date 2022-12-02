@@ -508,7 +508,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 500px;
-    margin: auto;
+    margin: 25px auto;
 }
 
 .modal-thumb {
