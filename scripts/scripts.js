@@ -30,8 +30,15 @@ const toggleActiveThumb = (e) => {
 }
 
 const changeDisplayImage = (e) => {
-    const prodImg = document.querySelector(".prod-img")
-    prodImg.src=(e.currentTarget.firstElementChild.src.replace("-thumbnail",""))
+    const prodImgArr = document.querySelectorAll(".prod-img")
+    for (let i = 0; i < prodImgArr.length; i++) {
+        prodImgArr[i].classList.remove("carousel")
+        prodImgArr[i].classList.add("dnone")
+    }
+
+    prodImgArr[e.currentTarget.dataset.key].classList.add("carousel")
+    prodImgArr[e.currentTarget.dataset.key].classList.remove("dnone")
+    
 }
 
 for (let i = 0; i < imgThumb.length; i++) {
@@ -151,14 +158,15 @@ const lightBoxThumb = (e) => {
     modalThumbs[activeThumb.dataset.key].classList.add("active-modal")
 }
 
-
-document.querySelector(".prod-img").addEventListener("click", (e) => {
-    if (screen.width > 880) {
-    openLightbox(e)
-    lightboxPicture(e)
-    lightBoxThumb(e)
-    }
-})
+for (let i = 0; i < document.querySelectorAll(".prod-img").length; i++ ) {
+    document.querySelectorAll(".prod-img")[i].addEventListener("click", (e) => {
+        if (screen.width > 880) {
+        openLightbox(e)
+        lightboxPicture(e)
+        lightBoxThumb(e)
+        }
+    })
+}
 
 document.querySelector(".lightbox-close").addEventListener("click", closeLightbox)
 
