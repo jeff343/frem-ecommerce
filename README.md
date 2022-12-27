@@ -50,7 +50,7 @@ Front end mentor provided all images (located in images foler) and site design (
 
 ### What I learned
 
-Wokring on this project I was a good refresher on DOM manipulation using vanilla Javascript. Designing the page to get as close to the markup as possible was a good challenge and allowed me to work on my basic css.
+Wokring on this project I was a good refresher on DOM manipulation using vanilla Javascript. Designing the page to get as close to the mockup as possible was a good challenge and allowed me to work on my basic css.
 
 ### Continued development
 
