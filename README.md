@@ -7,13 +7,12 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,6 +27,8 @@ Users should be able to:
 - Add items to the cart
 - View the cart and remove items from it
 
+Front end mentor provided all images (located in images foler) and site design (everything located in the design folder). The challenge is to build the page according to the provided mockups for desktop and mobile.
+
 ### Screenshot
 
 ![desktop screenshot](./design/desktop-screenshot.png)
@@ -36,9 +37,12 @@ Users should be able to:
 
 ## My process
 
+## Link
+
+- Challenge Solution [Ecommerce Site](https://jeff343.github.io/frem-ecommerce/)
+
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
@@ -46,13 +50,11 @@ Users should be able to:
 
 ### What I learned
 
-This was the most DOM manipulation I have done with vanilla javascript, and I enjoyed trying new things to make the funtions work.
+Wokring on this project I was a good refresher on DOM manipulation using vanilla Javascript. Designing the page to get as close to the markup as possible was a good challenge and allowed me to work on my basic css.
 
 ### Continued development
 
-I would like to work on writing cleaner code, as I feel the site started to get a little messy.
-
-
+I enjoyed developing the page with html/css/javascript, but I would like to keep learning how to use different libraries and frameworks.
 
 ## Author
 
